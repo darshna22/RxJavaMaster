@@ -2,13 +2,15 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.rxjavaproject.observer.CustomData
+import com.example.myapplication.observer.ApiHitByRxJava
+import com.example.myapplication.observer.FlatmapUseByRxJava
+import com.example.myapplication.observer.ZipOperatorUseByRxJava
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        CustomData()
+        ZipOperatorUseByRxJava()
     }
 }
